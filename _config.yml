@@ -1,0 +1,21 @@
+# Site settings
+title: Adventures with Coding
+header-img: img/home-bg.png
+email: jasmine.greene7@gmail.com
+copyright_name: jazz1m
+description: > # this means to ignore newlines until "baseurl:"
+  with Jasmine Greene
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  jazz1m
+learn_profile: jazz1m
+email_username: jasmine.greene7@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
